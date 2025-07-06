@@ -5,7 +5,7 @@ const Portfolio = () => {
   window.open('https://appointmate-a067.onrender.com', '');
    };
    const openProjectLink1 = () => {
-  window.open('https://ksarda06.github.io/Tree-visualisation/', '');
+  window.open('https://ksarda06.github.io/Tree-visualization/', '');
    };
   return (
     <div className="max-w-6xl mx-auto px-6 py-10">
