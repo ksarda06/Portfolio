@@ -6,7 +6,7 @@ const About = () => {
     <div className="bg-white/5 backdrop-blur-lg p-6 rounded-2xl border border-white/10">
         <div className="flex flex-col md:flex-row gap-6 items-center">
             <img
-              src="/public/kalash_sarda.jpg"
+              src="/kalash_sarda.jpg"
               alt="Kallu Kaliya"
               className="w-28 h-28 rounded-xl border-2 border-blue-400 shadow-md"
             />
