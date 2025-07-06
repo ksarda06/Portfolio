@@ -3,7 +3,7 @@ import React from 'react'
 const Herosection = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = './public/kalash_sarda_resume.pdf'; // Path to your resume in the public folder
+    link.href = './kalash_sarda_resume.pdf'; // Path to your resume in the public folder
     link.download = 'My_Resume.pdf'; // The name you want for the downloaded file
     link.click();
   };
@@ -11,7 +11,7 @@ const Herosection = () => {
   return (
     <div className="flex flex-col items-center justify-center text-center py-20 px-4">
       <img
-          src="./public/kalash_sarda.jpg"
+          src="./kalash_sarda.jpg"
           alt="Kalash Sarda"
           className="w-32 h-32 rounded-full border-4 border-blue-500 mb-6 shadow-lg"
         />
